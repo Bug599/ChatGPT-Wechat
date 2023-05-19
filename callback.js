@@ -5,7 +5,7 @@ const sha1 = require('sha1');
 const xml2js = require('xml2js');
 
 const TOKEN = process.env.TOKEN || '' // 微信服务器配置 Token
-const OPENAI_KEY = process.env.OPENAI_KEY || ''; // OpenAI 的 Key
+const OPENAI_KEY = process.env.OPENAI_KEY || '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'; // OpenAI 的 Key
 
 const OPENAI_MODEL = process.env.MODEL || "gpt-3.5-turbo"; // 使用的 AI 模型
 const OPENAI_MAX_TOKEN = process.env.MAX_TOKEN || 1024; // 最大 token 的值
